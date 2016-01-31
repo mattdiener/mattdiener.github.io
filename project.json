@@ -1,0 +1,735 @@
+{
+  "name": "The Real Slim Ritual",
+  "assets": [
+    {
+      "id": "34",
+      "name": "Intro",
+      "type": null,
+      "children": [
+        {
+          "id": "32",
+          "name": "Scene",
+          "type": "scene"
+        },
+        {
+          "id": "191",
+          "name": "Splash Screen",
+          "type": "sprite"
+        },
+        {
+          "id": "193",
+          "name": "Credits",
+          "type": "sprite"
+        },
+        {
+          "id": "33",
+          "name": "Behavior",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Act 1",
+      "type": null,
+      "children": [
+        {
+          "id": "36",
+          "name": "Areas",
+          "type": null,
+          "children": [
+            {
+              "id": "137",
+              "name": "0",
+              "type": null,
+              "children": [
+                {
+                  "id": "138",
+                  "name": "Scene",
+                  "type": "scene"
+                }
+              ]
+            },
+            {
+              "id": "91",
+              "name": "1",
+              "type": null,
+              "children": [
+                {
+                  "id": "123",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "92",
+                  "name": "Map",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "37",
+              "name": "2",
+              "type": null,
+              "children": [
+                {
+                  "id": "132",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "122",
+                  "name": "Map",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "63",
+                  "name": "Map_Green",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "64",
+                  "name": "Map_Orange",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "124",
+              "name": "3",
+              "type": null,
+              "children": [
+                {
+                  "id": "130",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "125",
+                  "name": "Map",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "113",
+              "name": "4",
+              "type": null,
+              "children": [
+                {
+                  "id": "135",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "114",
+                  "name": "Map",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "131",
+              "name": "5",
+              "type": null,
+              "children": [
+                {
+                  "id": "133",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "128",
+                  "name": "Map",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "117",
+              "name": "6",
+              "type": null,
+              "children": [
+                {
+                  "id": "136",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "118",
+                  "name": "Map",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "126",
+              "name": "7",
+              "type": null,
+              "children": [
+                {
+                  "id": "106",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "119",
+                  "name": "Map",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "107",
+              "name": "8",
+              "type": null,
+              "children": [
+                {
+                  "id": "142",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "109",
+                  "name": "Map",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "150",
+              "name": "9",
+              "type": null,
+              "children": [
+                {
+                  "id": "157",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "158",
+                  "name": "Map",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "176",
+                  "name": "Red",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "151",
+              "name": "10",
+              "type": null,
+              "children": [
+                {
+                  "id": "162",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "163",
+                  "name": "Map",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "152",
+              "name": "11",
+              "type": null,
+              "children": [
+                {
+                  "id": "164",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "165",
+                  "name": "Map",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "177",
+                  "name": "Orange",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "153",
+              "name": "12",
+              "type": null,
+              "children": [
+                {
+                  "id": "166",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "167",
+                  "name": "Map",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "154",
+              "name": "13",
+              "type": null,
+              "children": [
+                {
+                  "id": "168",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "169",
+                  "name": "Map",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "155",
+              "name": "14",
+              "type": null,
+              "children": [
+                {
+                  "id": "170",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "171",
+                  "name": "Map",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "156",
+              "name": "15",
+              "type": null,
+              "children": [
+                {
+                  "id": "172",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "173",
+                  "name": "Map",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "141",
+              "name": "16",
+              "type": null,
+              "children": [
+                {
+                  "id": "127",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "134",
+                  "name": "Map",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "185",
+              "name": "17",
+              "type": null,
+              "children": [
+                {
+                  "id": "187",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "188",
+                  "name": "Map",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "186",
+              "name": "18",
+              "type": null,
+              "children": [
+                {
+                  "id": "190",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "189",
+                  "name": "Map",
+                  "type": "tileMap"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Tile Set",
+          "type": "tileSet"
+        },
+        {
+          "id": "96",
+          "name": "Map Tile Set (Dark Red)",
+          "type": "tileSet"
+        },
+        {
+          "id": "97",
+          "name": "Map Tile Set (Blue)",
+          "type": "tileSet"
+        },
+        {
+          "id": "50",
+          "name": "Tiles",
+          "type": "tileSet"
+        },
+        {
+          "id": "71",
+          "name": "Full Tile Set",
+          "type": "tileSet"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Prefabs",
+      "type": null,
+      "children": [
+        {
+          "id": "42",
+          "name": "Princess",
+          "type": null,
+          "children": [
+            {
+              "id": "88",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "44",
+              "name": "Behavior",
+              "type": "script"
+            },
+            {
+              "id": "90",
+              "name": "PrincessPrefab",
+              "type": "scene"
+            },
+            {
+              "id": "110",
+              "name": "Princess Red",
+              "type": "sprite"
+            },
+            {
+              "id": "112",
+              "name": "Princess Purple",
+              "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "53",
+          "name": "MovingPlatform_x",
+          "type": null,
+          "children": [
+            {
+              "id": "58",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "45",
+              "name": "MovingPlatform_x",
+              "type": "script"
+            },
+            {
+              "id": "60",
+              "name": "MovingPlatform_x_prefab",
+              "type": "scene"
+            }
+          ]
+        },
+        {
+          "id": "54",
+          "name": "MovingPlatform_y",
+          "type": null,
+          "children": [
+            {
+              "id": "59",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "48",
+              "name": "MovingPlatform_y",
+              "type": "script"
+            },
+            {
+              "id": "61",
+              "name": "MovingPlatform_y_prefab",
+              "type": "scene"
+            }
+          ]
+        },
+        {
+          "id": "62",
+          "name": "Switch",
+          "type": null,
+          "children": [
+            {
+              "id": "65",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "66",
+              "name": "Switch_Prefab",
+              "type": "scene"
+            }
+          ]
+        },
+        {
+          "id": "72",
+          "name": "Gate",
+          "type": null,
+          "children": [
+            {
+              "id": "73",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "74",
+              "name": "Gate_Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "192",
+              "name": "GateBehavior",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "85",
+          "name": "GlitchCamera",
+          "type": null,
+          "children": [
+            {
+              "id": "86",
+              "name": "GlitchCameraBehavior",
+              "type": "script"
+            },
+            {
+              "id": "87",
+              "name": "Scene",
+              "type": "scene"
+            }
+          ]
+        },
+        {
+          "id": "139",
+          "name": "Purple ball item",
+          "type": null,
+          "children": [
+            {
+              "id": "140",
+              "name": "Purple ball",
+              "type": "sprite"
+            },
+            {
+              "id": "174",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "179",
+              "name": "Behavior",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "159",
+          "name": "Red ball item",
+          "type": null,
+          "children": [
+            {
+              "id": "161",
+              "name": "Red ball",
+              "type": "sprite"
+            },
+            {
+              "id": "175",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "178",
+              "name": "Behavior",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "180",
+          "name": "Pentagram",
+          "type": null,
+          "children": [
+            {
+              "id": "181",
+              "name": "Pentagram",
+              "type": "sprite"
+            },
+            {
+              "id": "183",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "184",
+              "name": "Behavior",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "194",
+          "name": "Keyboard",
+          "type": null,
+          "children": [
+            {
+              "id": "195",
+              "name": "Space Keyboard",
+              "type": "sprite"
+            },
+            {
+              "id": "196",
+              "name": "E Keyboard",
+              "type": "sprite"
+            },
+            {
+              "id": "197",
+              "name": "W Keyboard",
+              "type": "sprite"
+            },
+            {
+              "id": "198",
+              "name": "Arrow Keyboard",
+              "type": "sprite"
+            },
+            {
+              "id": "199",
+              "name": "Q Keyboard",
+              "type": "sprite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Extra_Code",
+      "type": null,
+      "children": [
+        {
+          "id": "41",
+          "name": "Script",
+          "type": "script"
+        },
+        {
+          "id": "67",
+          "name": "MapGreenBehavior",
+          "type": "script"
+        },
+        {
+          "id": "69",
+          "name": "MapOrangeBehavior",
+          "type": "script"
+        },
+        {
+          "id": "68",
+          "name": "DefyTheGravy",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Game",
+      "type": "script"
+    },
+    {
+      "id": "52",
+      "name": "Notes",
+      "type": "script"
+    },
+    {
+      "id": "75",
+      "name": "Sound",
+      "type": null,
+      "children": [
+        {
+          "id": "76",
+          "name": "CloneSound",
+          "type": "sound"
+        },
+        {
+          "id": "77",
+          "name": "Song1",
+          "type": "sound"
+        },
+        {
+          "id": "78",
+          "name": "Song3",
+          "type": "sound"
+        },
+        {
+          "id": "79",
+          "name": "SongCredits",
+          "type": "sound"
+        },
+        {
+          "id": "80",
+          "name": "JumpSound1",
+          "type": "sound"
+        },
+        {
+          "id": "81",
+          "name": "JumpSound2",
+          "type": "sound"
+        },
+        {
+          "id": "82",
+          "name": "PowerupSound",
+          "type": "sound"
+        },
+        {
+          "id": "83",
+          "name": "RunningSound",
+          "type": "sound"
+        },
+        {
+          "id": "84",
+          "name": "MusicPlayerBehavior",
+          "type": "script"
+        }
+      ]
+    }
+  ]
+}

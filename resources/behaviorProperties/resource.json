@@ -1,0 +1,217 @@
+{
+  "behaviors": {
+    "IntroBehavior": {
+      "scriptId": "33",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "ScriptBehavior": {
+      "scriptId": "41",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "PrincessBehavior": {
+      "scriptId": "44",
+      "line": 2,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "jumpSpeed",
+          "type": "number"
+        },
+        {
+          "name": "wallHugResistance",
+          "type": "number"
+        },
+        {
+          "name": "wallJumpSpeed",
+          "type": "number"
+        },
+        {
+          "name": "clone",
+          "type": "any"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "doubleJump",
+          "type": "boolean"
+        },
+        {
+          "name": "airTime",
+          "type": "number"
+        },
+        {
+          "name": "wallJumped",
+          "type": "boolean"
+        },
+        {
+          "name": "active",
+          "type": "boolean"
+        },
+        {
+          "name": "cloneTimer",
+          "type": "number"
+        },
+        {
+          "name": "onSwitch",
+          "type": "boolean"
+        }
+      ]
+    },
+    "MovingPlatform_xBehavior": {
+      "scriptId": "45",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "locationInCycle",
+          "type": "number"
+        },
+        {
+          "name": "directionOfCycle",
+          "type": "boolean"
+        },
+        {
+          "name": "distanceFromCenter",
+          "type": "number"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "gravity",
+          "type": "number"
+        }
+      ]
+    },
+    "MovingPlatform_yBehavior": {
+      "scriptId": "48",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "locationInCycle",
+          "type": "number"
+        },
+        {
+          "name": "directionOfCycle",
+          "type": "boolean"
+        },
+        {
+          "name": "distanceFromCenter",
+          "type": "number"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "gravity",
+          "type": "number"
+        }
+      ]
+    },
+    "MapGreenBehavior": {
+      "scriptId": "67",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "fadeSpeed",
+          "type": "number"
+        },
+        {
+          "name": "opacity",
+          "type": "number"
+        }
+      ]
+    },
+    "DefyTheGravyBehavior": {
+      "scriptId": "68",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MapOrangeBehavior": {
+      "scriptId": "69",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "fadeSpeed",
+          "type": "number"
+        },
+        {
+          "name": "opacity",
+          "type": "number"
+        }
+      ]
+    },
+    "MusicPlayerBehavior": {
+      "scriptId": "84",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "song",
+          "type": "string"
+        }
+      ]
+    },
+    "GlitchCameraBehavior": {
+      "scriptId": "86",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "RedBallItemBehavior": {
+      "scriptId": "178",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "des",
+          "type": "boolean"
+        }
+      ]
+    },
+    "PurpleBallItemBehavior": {
+      "scriptId": "179",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "des",
+          "type": "boolean"
+        }
+      ]
+    },
+    "PentagramItemBehavior": {
+      "scriptId": "184",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "des",
+          "type": "boolean"
+        }
+      ]
+    },
+    "GateBehavior": {
+      "scriptId": "192",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}
