@@ -257,8 +257,8 @@
       "children": [],
       "components": [],
       "position": {
-        "x": 7.120588779449463,
-        "y": 32.95066833496094,
+        "x": 1.6088075637817383,
+        "y": 31.732593536376953,
         "z": 0
       },
       "orientation": {
@@ -306,8 +306,8 @@
             }
           ],
           "position": {
-            "x": 78.31454467773438,
-            "y": -0.9249725341796875,
+            "x": 81.51199340820312,
+            "y": -1.4274253845214844,
             "z": 0
           },
           "orientation": {
@@ -411,6 +411,75 @@
       "scale": {
         "x": 4,
         "y": 4,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "18",
+      "name": "Hazards",
+      "children": [
+        {
+          "id": "17",
+          "name": "Hazard",
+          "children": [],
+          "components": [
+            {
+              "type": "ArcadeBody2D",
+              "config": {
+                "type": "box",
+                "movable": false,
+                "width": 1,
+                "height": 17,
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "tileMapAssetId": null,
+                "tileSetPropertyName": null,
+                "layersIndex": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -18.636520862579346,
+            "y": -18.469032287597656,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 15.037667274475098,
+        "y": 52.42527389526367,
+        "z": 10
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
         "z": 1
       },
       "visible": true,

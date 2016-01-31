@@ -16,13 +16,13 @@ class IntroBehavior extends Sup.Behavior {
   loadCredits() {
     let that = this;
     Sup.setTimeout(3000, function() {
+      Game.selectSong(1);
       that.startGame();
     });
   }
   
   startGame() {
     Game.loadNextLevel();
-    Game.start();
   }
 }
 

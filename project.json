@@ -47,6 +47,11 @@
                   "id": "138",
                   "name": "Scene",
                   "type": "scene"
+                },
+                {
+                  "id": "231",
+                  "name": "Script",
+                  "type": "script"
                 }
               ]
             },
@@ -64,6 +69,11 @@
                   "id": "92",
                   "name": "Map",
                   "type": "tileMap"
+                },
+                {
+                  "id": "222",
+                  "name": "Map (1)",
+                  "type": "tileMap"
                 }
               ]
             },
@@ -80,16 +90,6 @@
                 {
                   "id": "122",
                   "name": "Map",
-                  "type": "tileMap"
-                },
-                {
-                  "id": "63",
-                  "name": "Map_Green",
-                  "type": "tileMap"
-                },
-                {
-                  "id": "64",
-                  "name": "Map_Orange",
                   "type": "tileMap"
                 }
               ]
@@ -232,6 +232,11 @@
                   "id": "163",
                   "name": "Map",
                   "type": "tileMap"
+                },
+                {
+                  "id": "201",
+                  "name": "Red",
+                  "type": "tileMap"
                 }
               ]
             },
@@ -251,25 +256,30 @@
                   "type": "tileMap"
                 },
                 {
-                  "id": "177",
+                  "id": "206",
                   "name": "Orange",
                   "type": "tileMap"
                 }
               ]
             },
             {
-              "id": "153",
+              "id": "202",
               "name": "12",
               "type": null,
               "children": [
                 {
-                  "id": "166",
+                  "id": "203",
                   "name": "Scene",
                   "type": "scene"
                 },
                 {
-                  "id": "167",
+                  "id": "204",
                   "name": "Map",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "205",
+                  "name": "Orange",
                   "type": "tileMap"
                 }
               ]
@@ -280,54 +290,42 @@
               "type": null,
               "children": [
                 {
-                  "id": "168",
+                  "id": "207",
                   "name": "Scene",
                   "type": "scene"
                 },
                 {
-                  "id": "169",
+                  "id": "208",
                   "name": "Map",
                   "type": "tileMap"
+                },
+                {
+                  "id": "209",
+                  "name": "Orange",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "210",
+                  "name": "Platform",
+                  "type": null,
+                  "children": [
+                    {
+                      "id": "211",
+                      "name": "Prefab",
+                      "type": "scene"
+                    },
+                    {
+                      "id": "212",
+                      "name": "Behavior",
+                      "type": "script"
+                    }
+                  ]
                 }
               ]
             },
             {
               "id": "155",
               "name": "14",
-              "type": null,
-              "children": [
-                {
-                  "id": "170",
-                  "name": "Scene",
-                  "type": "scene"
-                },
-                {
-                  "id": "171",
-                  "name": "Map",
-                  "type": "tileMap"
-                }
-              ]
-            },
-            {
-              "id": "156",
-              "name": "15",
-              "type": null,
-              "children": [
-                {
-                  "id": "172",
-                  "name": "Scene",
-                  "type": "scene"
-                },
-                {
-                  "id": "173",
-                  "name": "Map",
-                  "type": "tileMap"
-                }
-              ]
-            },
-            {
-              "id": "141",
-              "name": "16",
               "type": null,
               "children": [
                 {
@@ -343,35 +341,82 @@
               ]
             },
             {
-              "id": "185",
-              "name": "17",
+              "id": "213",
+              "name": "15",
               "type": null,
               "children": [
                 {
-                  "id": "187",
+                  "id": "214",
                   "name": "Scene",
                   "type": "scene"
                 },
                 {
-                  "id": "188",
+                  "id": "215",
                   "name": "Map",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "216",
+                  "name": "Red",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "217",
+                  "name": "Purple",
                   "type": "tileMap"
                 }
               ]
             },
             {
-              "id": "186",
-              "name": "18",
+              "id": "220",
+              "name": "16",
               "type": null,
               "children": [
                 {
-                  "id": "190",
+                  "id": "227",
                   "name": "Scene",
                   "type": "scene"
                 },
                 {
-                  "id": "189",
+                  "id": "226",
                   "name": "Map",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "229",
+                  "name": "Red",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "228",
+                  "name": "Purple",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "233",
+              "name": "17",
+              "type": null,
+              "children": [
+                {
+                  "id": "234",
+                  "name": "Scene",
+                  "type": "scene"
+                },
+                {
+                  "id": "235",
+                  "name": "Map",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "236",
+                  "name": "Red",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "237",
+                  "name": "Purple",
                   "type": "tileMap"
                 }
               ]
@@ -379,23 +424,8 @@
           ]
         },
         {
-          "id": "4",
-          "name": "Tile Set",
-          "type": "tileSet"
-        },
-        {
-          "id": "96",
-          "name": "Map Tile Set (Dark Red)",
-          "type": "tileSet"
-        },
-        {
-          "id": "97",
-          "name": "Map Tile Set (Blue)",
-          "type": "tileSet"
-        },
-        {
-          "id": "50",
-          "name": "Tiles",
+          "id": "218",
+          "name": "Test",
           "type": "tileSet"
         },
         {
@@ -597,6 +627,11 @@
               "type": "sprite"
             },
             {
+              "id": "221",
+              "name": "Goat head",
+              "type": "sprite"
+            },
+            {
               "id": "183",
               "name": "Prefab",
               "type": "scene"
@@ -637,6 +672,18 @@
               "id": "199",
               "name": "Q Keyboard",
               "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "223",
+          "name": "Goat Head",
+          "type": null,
+          "children": [
+            {
+              "id": "225",
+              "name": "Behavior",
+              "type": "script"
             }
           ]
         }

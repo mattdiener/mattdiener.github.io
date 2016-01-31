@@ -33,6 +33,14 @@ class PrincessBehavior extends Sup.Behavior {
   awake() {
     Game.playerBehavior = this;
     this.mapDefaults = Sup.getActor("Map").getChildren();
+    
+    if (Game.controlGreen){
+      this.actor.spriteRenderer.setSprite("Prefabs/Princess/Princess Purple");
+    }else if (Game.controlOrange){
+      this.actor.spriteRenderer.setSprite("Prefabs/Princess/Princess Red");
+    }else{
+      this.actor.spriteRenderer.setSprite("Prefabs/Princess/Sprite");
+    }
   }
 
   handleCloneCollisions(){
@@ -210,7 +218,6 @@ class PrincessBehavior extends Sup.Behavior {
     // As explained above, we get the current velocity
     let velocity = this.actor.arcadeBody2D.getVelocity();
 
-      
     // We override the `.x` component based on the player's input
     if (Sup.Input.isKeyDown("LEFT")) {
       velocity.x -= this.speed;
@@ -222,11 +229,17 @@ class PrincessBehavior extends Sup.Behavior {
       this.actor.spriteRenderer.setHorizontalFlip(true);
     }
       
-    if (Sup.Input.wasKeyJustPressed("W") && Game.controlGreen) {
-      Game.greenEnabled = !Game.greenEnabled;
-    } else if (Sup.Input.wasKeyJustPressed("E") && Game.controlOrange) {
+
+    if (Sup.Input.wasKeyJustPressed("E") && Game.controlOrange && !this.clone) {
       Game.orangeEnabled = !Game.orangeEnabled;
+      if (Game.controlGreen){
+        Game.greenEnabled = !Game.orangeEnabled;
+      }
     }
+      
+      if (Sup.Input.wasKeyJustPressed("R")) {
+          Game.reloadLevel();
+      }
 
     if (Game.debug) {
       if (Sup.Input.wasKeyJustPressed("ADD")) {
@@ -246,10 +259,8 @@ class PrincessBehavior extends Sup.Behavior {
     }
 
     //varible needed for double jump validation
-    if (Sup.Input.isKeyDown("SPACE")) 
-    {
-      if(!Game.cloneExists && Game.canClone)
-        {  
+    if (Sup.Input.isKeyDown("SPACE")) {
+      if(!Game.cloneExists && Game.canClone) {  
         this.doubleJump = true;
         Game.cloneExists = true;
         this.clone = Sup.appendScene("Prefabs/Princess/PrincessPrefab")[0];

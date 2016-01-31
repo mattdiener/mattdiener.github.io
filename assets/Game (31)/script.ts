@@ -7,17 +7,20 @@ module Game {
   export let canClone = false;
   export let cloneExists = false;
         
-  export let currentLevel = 0;
+  export let currentLevel = -1;
   
+  export let songIndex = 0;
+  export let songPlayer:Sup.Audio.SoundPlayer = null;
+        
   export let controlOrange = false;
   export let controlGreen = false;
   export let orangeEnabled = true;
   export let greenEnabled = true;
   
   export let doorInStage = true;
-        
+  
   export function start() {
-    Sup.Audio.playSound("Sound/Song3",0.2,{'loop':true});
+    this.selectSong(0);
   }
   
   export function loadLevel(level: number) {
@@ -54,5 +57,29 @@ module Game {
         that.destroy();
       }
     });
+  }
+  
+  export function selectSong(i){
+    if (this.songIndex != i){
+      this.songIndex = i;
+      if (this.songIndex == 0){
+        if (this.songPlayer){
+          this.songPlayer.stop();
+        }
+        this.songPlayer = Sup.Audio.playSound("Sound/Song3",0.2,{'loop':true});
+      }
+      if (this.songIndex == 1){
+        if (this.songPlayer){
+          this.songPlayer.stop();
+        }
+        this.songPlayer = Sup.Audio.playSound("Sound/Song1",0.2,{'loop':true});
+      }if (this.songIndex == 2){
+        if (this.songPlayer){
+          this.songPlayer.stop();
+        }
+        this.songPlayer = Sup.Audio.playSound("Sound/Song1",0.2,{'loop':true});
+      }
+    }
+    Sup.log(this.songPlayer);
   }
 }

@@ -204,11 +204,58 @@
         {
           "name": "des",
           "type": "boolean"
+        },
+        {
+          "name": "opacity",
+          "type": "number"
+        },
+        {
+          "name": "fadeSpeed",
+          "type": "number"
         }
       ]
     },
     "GateBehavior": {
       "scriptId": "192",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "Area13PlatformBehavior": {
+      "scriptId": "212",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "locationInCycle",
+          "type": "number"
+        },
+        {
+          "name": "directionOfCycle",
+          "type": "boolean"
+        },
+        {
+          "name": "distanceFromCenter",
+          "type": "number"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "gravity",
+          "type": "number"
+        }
+      ]
+    },
+    "GoatHeadBehavior": {
+      "scriptId": "225",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "DummySceneBehavior": {
+      "scriptId": "231",
       "line": 0,
       "parentBehavior": null,
       "properties": []

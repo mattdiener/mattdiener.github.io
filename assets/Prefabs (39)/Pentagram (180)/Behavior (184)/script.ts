@@ -1,6 +1,8 @@
 class PentagramItemBehavior extends Sup.Behavior {
   princess: Sup.Actor;
   des: boolean = true;
+  opacity = 1;
+  fadeSpeed = 0.1;
 
   awake() {
     this.princess = Sup.getActor("Princess");
@@ -12,13 +14,18 @@ class PentagramItemBehavior extends Sup.Behavior {
       return;
     }
     
+    if (!this.des){
+      this.opacity -= this.fadeSpeed;
+      if (this.opacity < 0) this.opacity = 0;
+      this.actor.spriteRenderer.setOpacity(this.opacity);
+    }
+    
     if (!Sup.ArcadePhysics2D.collides(this.actor.arcadeBody2D, this.princess.arcadeBody2D) || this.des == false) {
       return;
     }
     
     Game.canClone = true;
-    this.actor.spriteRenderer.setAnimation("Death");
-    Sup.Audio.playSound("Sound/CloneSound");
+        Sup.Audio.playSound("Sound/CloneSound");
     
     this.actor.setPosition({
       x: this.actor.getPosition().x,
