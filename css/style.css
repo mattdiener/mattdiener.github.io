@@ -93,3 +93,9 @@ a.white:active {color: #dddddd; text-decoration: underline; }
 a.white:visited {color: #dddddd; text-decoration: underline; }
 a.white:hover {color: #ffffff; text-decoration: underline; }
 
+a.orange:link {color: #ff7300; text-decoration: underline;}
+a.orange:active {color: #ff7300; text-decoration: underline; }
+a.orange:visited {color: #ff7300; text-decoration: underline; }
+a.orange:hover {color: #ffaa44; text-decoration: underline; }
+
+
